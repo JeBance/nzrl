@@ -1,0 +1,32 @@
+{
+  "name": "nzrl",
+  "version": "1.0.0",
+  "description": "Class for nzserver",
+  "keywords": [
+    "class",
+    "nz",
+    "requestListener",
+    "nzserver"
+  ],
+  "author": {
+    "name": "Oleg Prudkov",
+    "email": "oleg.prudkov@gmail.com",
+    "url": "https://jebance.github.io"
+  },
+  "main": "index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeBance/nzrl.git"
+  },
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/JeBance/nzrl/issues"
+  },
+  "homepage": "https://jebance.github.io/nzrl/",
+  "dependencies": {
+    "nzfunc": "*1.0.6",
+    "nzmessage": "*1.1.9",
+    "nznode": "*1.1.13"
+  }
+}
