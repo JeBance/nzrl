@@ -17,7 +17,6 @@ class nzrl {
 
 		this.NODE = new nznode(this.CONFIG);
 		(async () => { this.CONFIG.keyID = await this.NODE.getNodeHash(this.CONFIG) })();
-		this.NODE.firstNodeSearch();
 		this.NODE.searchNodesInLocalNetwork();
 		this.NODE.checkNodes(this.MESSAGE);
 	}
