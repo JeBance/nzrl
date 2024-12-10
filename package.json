@@ -1,6 +1,6 @@
 {
   "name": "nzrl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Class for nzserver",
   "keywords": [
     "class",
@@ -23,10 +23,5 @@
   "bugs": {
     "url": "https://github.com/JeBance/nzrl/issues"
   },
-  "homepage": "https://jebance.github.io/nzrl/",
-  "dependencies": {
-    "nzfunc": "*1.0.6",
-    "nzmessage": "*1.1.9",
-    "nznode": "*1.1.13"
-  }
+  "homepage": "https://jebance.github.io/nzrl/"
 }

@@ -138,12 +138,15 @@ class nzrl {
 				case '/index.html':
 				case '/info':
 					let info = JSON.stringify({
+						keyID: this.CONFIG.keyID,
 						net: this.CONFIG.net,
 						prot: this.CONFIG.prot,
 						host: this.CONFIG.host,
 						port: this.CONFIG.port,
 						time: new Date().getTime(),
 						autoDel: this.CONFIG.autoDel,
+						autoCheckNodes: this.CONFIG.autoCheckNodes,
+						autoCheckMessages: this.CONFIG.autoCheckMessages,
 						firstMessage: this.MESSAGE.getFirstMessageHash(),
 						lastMessage: this.MESSAGE.getLastMessageHash()
 					});
