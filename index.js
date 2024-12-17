@@ -24,6 +24,7 @@ class nzrl {
 	async requestListener(req, res) {
 		let nonce = new Date().getTime();
 		res.setHeader('Content-Type', 'application/json');
+		res.setHeader('Access-Control-Allow-Origin', '*');
 
 		if (req.method == 'POST') {
 
